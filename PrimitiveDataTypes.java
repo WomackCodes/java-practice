@@ -9,5 +9,4 @@ public class PrimitiveDataTypes {
         char oneThing = '%';
         float notNeededUnlessYouWantToSaveMemory = 500f;
     }
-    
 }
