@@ -8,5 +8,8 @@ public class PrimitiveDataTypes {
         boolean trueFalse = true;
         char oneThing = '%';
         float notNeededUnlessYouWantToSaveMemory = 500f;
+    
+        System.out.println(oneThing);
+    
     }
 }
