@@ -1,3 +1,6 @@
+package Java_Basics;
+
+
 public class Methods {
     public static void main(String[] args) {
         System.out.println("I take in arguments");
