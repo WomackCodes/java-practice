@@ -18,7 +18,7 @@ public class Animal {
         this.domesticated = domesticated;
     }
 
-    public void deatils() {
+    public void details() {
         System.out.println("This is a " + species + " that eats " + food + " and typically weighs about " + weight + " lbs.");  
         System.out.println("Their typical lifespan is " + lifespan + " years, and it's " + domesticated + " that it can be a house pet because it's " + dangerous + " that it's dangerous!");
     }
