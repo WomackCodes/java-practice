@@ -6,9 +6,9 @@ public class Zoo {
         Animal cow = new Animal("cow", "grass", 2000, 40, false, true);
         Animal dog = new Animal("dog", "Hill's Science Diet", 50, 12, false, true);
 
-        chimp.details();
+        chimp.sleep();
         System.out.println(" ");
-        cow.details();
+        cow.eat();
         System.out.println(" ");
         dog.details();
     }
