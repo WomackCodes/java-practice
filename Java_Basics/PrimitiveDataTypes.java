@@ -11,7 +11,14 @@ public class PrimitiveDataTypes {
         char oneThing = '%';
         float notNeededUnlessYouWantToSaveMemory = 500f;
     
+        System.out.println(var);
+        System.out.println(biggerNumber);
+        System.out.println(smallNumber);
+        System.out.println(smallerStill);
+        System.out.println(withDecimal);
+        System.out.println(trueFalse);
         System.out.println(oneThing);
+        System.out.println(notNeededUnlessYouWantToSaveMemory);
     
     }
 }
