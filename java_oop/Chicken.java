@@ -6,8 +6,9 @@ public class Chicken extends Bird{
         super(species, food, weight, lifespan, dangerous, domesticated);
     }
 
-    public void fly() {
-        System.out.println("This bird cannot fly!");
-    }
+    // // overriding the method of Animal class, more specificity
+    // public void fly() {
+    //     System.out.println("This bird cannot fly!");
+    // }
     
 }

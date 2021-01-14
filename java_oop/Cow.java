@@ -9,4 +9,8 @@ public class Cow extends Animal{
     public void moo() {
         System.out.println("Cow is mooing.");
     }
+
+    public void move() {
+		System.out.println("Cow is mozying...");
+	}
 }

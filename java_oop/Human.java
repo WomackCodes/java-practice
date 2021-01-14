@@ -7,8 +7,12 @@ public class Human {
   String eyeColor;
 
 
-    public Human () {
-
+    public Human (String name, int age, int heightInches, String eyeColor) {
+        super();
+        this.name = name;
+        this.age = age;
+        this.heightInches = heightInches;
+        this.eyeColor = eyeColor;
     }
 
     public void speak() {

@@ -1,6 +1,6 @@
 package java_oop;
 
-public class Animal {
+public abstract class Animal {
     String species;
     String food;
     int weight;
@@ -30,4 +30,6 @@ public class Animal {
     public void sleep() {
         System.out.println(species + " is sleeping, shhh!");
     }
+
+    public abstract void move();
 }
