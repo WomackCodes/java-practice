@@ -14,17 +14,25 @@ public class StringsPractice {
 		String a = "hello";
 		String b = "goodbye";
 		
-		if (!a.equals("hello")){
-			System.out.println("Something is wrong with A");
-		} else {
-			System.out.println("Yep, a equals 'hello'.");
-		}
+		// if (!a.equals("hello")){
+		// 	System.out.println("Something is wrong with A");
+		// } else {
+		// 	System.out.println("Yep, a equals 'hello'.");
+		// }
 		
-		if (!b.equals("goodbye")) {
-			System.out.println("Something is wrong with B");
-		} else {
-			System.out.println("Yep, b equals 'goodbye'.");
-		}
+		// if (!b.equals("goodbye")) {
+		// 	System.out.println("Something is wrong with B");
+		// } else {
+		// 	System.out.println("Yep, b equals 'goodbye'.");
+        // }
+        
+        System.out.println(a.charAt(0));
+		System.out.println(a.charAt(1));
+		System.out.println(a.charAt(2));
+		System.out.println(a.charAt(3));
+        System.out.println(a.charAt(4));
+        
+        System.out.println("Goodbye " + b.charAt(0));
 
 	}
 }
