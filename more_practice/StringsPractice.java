@@ -34,10 +34,14 @@ public class StringsPractice {
         
         // System.out.println("Goodbye " + b.charAt(0));
 
-        String c = "Listening to some great music... like great";
+		String c = "Listening to some great music... like great";
+		
+		String d = "But wait there's more";
 
-        int i = c.indexOf("great", 20);
+		int i = c.indexOf("great", 20);
+		int i2 = d.indexOf("wait");
         System.out.println(i);
+        System.out.println(i2);
 
 	}
 }
