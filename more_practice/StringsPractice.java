@@ -13,7 +13,7 @@ public class StringsPractice {
 		
 		String a = "hello";
 		String b = "goodbye";
-		String c = "yo";
+		
 		
 		// if (!a.equals("hello")){
 		// 	System.out.println("Something is wrong with A");
@@ -41,8 +41,10 @@ public class StringsPractice {
 
 		int i = c.indexOf("great", 20);
 		int i2 = d.indexOf("wait");
+		int i3 = c.indexOf("to");
         System.out.println(i);
         System.out.println(i2);
+		System.out.println(i3);
 
 	}
 }
