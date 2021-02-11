@@ -13,6 +13,7 @@ public class StringsPractice {
 		
 		String a = "hello";
 		String b = "goodbye";
+		String c = "yo";
 		
 		// if (!a.equals("hello")){
 		// 	System.out.println("Something is wrong with A");
